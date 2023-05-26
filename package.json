@@ -1,0 +1,12 @@
+{
+  "name": "karim-bank_inc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abdelkarim.sayar@gmail.com",
+  "license": "ISC"
+}
