@@ -12,11 +12,15 @@ function NavBar() {
   function testAuth() {
     // testAuth function code...
   }
-
+  console.log("currentPage", currentPage);
   return (
     <>
       <nav className="navbar navbar-expand-md navbar-light bg-light">
-        <a className="navbar-brand" href="#">
+        <a
+          className="navbar-brand"
+          href="#"
+          onClick={() => setCurrentPage("Home")}
+        >
           Bad Bank
         </a>
         <button
